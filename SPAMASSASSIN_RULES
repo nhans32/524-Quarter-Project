@@ -18,4 +18,7 @@ https://spamassassin.apache.org/old/tests_3_3_x.html
 https://ruleqa.spamassassin.org/
     - more rule stuff
 
+https://spamassassin.apache.org/full/3.2.x/doc/Mail_SpamAssassin_Plugin_SPF.html
+    - turn off spam assassin SPF checks?
+
 Note: if you use spamd, rules placed in user_prefs will be IGNORED by default. If you add the allow_user_rules option to your local.cf you can get spamd to honor them. However, before you enable it, you should know that this is disabled by default for security reasons. In theory a malicious local user might be able to exploit spamd with a clever regex and gain root permissions. I know of no specific vulnerabilities of this type in spamassassin at this time, but it is a possibility. I'd only turn this on if you trust your local users not to try to hack root.
