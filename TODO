@@ -1,0 +1,7 @@
+- replace spammy words, replace spammy bigrams - synonym replacement
+- text poison spammy words
+- testing loop
+  - spam detected vs not spam detected
+  - score decrease?
+- more diverse dataset for spam/ham
+- LLM prompting?
