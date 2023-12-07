@@ -7,3 +7,5 @@
 - LLM prompting?
 
 NOTES: expected performance of on SPAM:
+
+Attack model, we dont know what emails the model is good at detecting, just have access to these datasets public datasets. Have to train model on these datasets and modify the emails we're good at detecting to determine if we were effective
