@@ -1,0 +1,15 @@
+- MUST HAVE SPAM ASSASSIN RUNNING FOR MAJORITY OF THIS CODE
+  - sudo spamd
+
+https://pypi.org/project/spamassassin-client/
+
+- SETUP: -
+1) Have spamasassin installed
+    > sudo apt get spamassassin
+2) > pip install spamassassin_client
+3) Start spamassassin server
+    > sudo spamd
+4) Use spamassassin_client
+
+- NOTE: -
+REMEMBER TO SHUT DOWN SPAMD SERVER WHEN DONE
